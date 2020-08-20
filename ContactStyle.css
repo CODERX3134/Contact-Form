@@ -1,0 +1,38 @@
+.root{
+    -fx-font-family: 'Poppins';
+}
+#contactInfo{
+    -fx-text-fill: '#fff';
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 4px;
+}
+#address, #email, #mobile{
+    -fx-text-fill: '#fff';
+    -fx-font-size: 12pt;
+}
+
+#addressBox, #emailBox, #mobileBox, #socialMediaBox{
+    -fx-cursor: 'hand';
+}
+#txt{
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 12pt;
+}
+#sendBtn{
+    -fx-background-color: '#0f3959';
+    -fx-text-fill: '#fff';
+}
+
+#sendBtn:pressed{
+    -fx-background-color: '#ff568c';
+}
+
+#sendMsg{
+    -fx-text-fill: '#0f3959';
+    -fx-font-size: 15pt;
+}
+
+#sendBtn:hover{
+    -fx-background-color: '#ff568c';
+}
